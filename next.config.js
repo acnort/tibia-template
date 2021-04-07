@@ -9,10 +9,11 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'eslint-loader',
         options: {
-          eslintPath: require.resolve('eslint'),
+          eslintPath: require.resolve('eslint')
         }
       })
     }
+
     return config
   }
 }
